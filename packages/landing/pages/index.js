@@ -52,9 +52,9 @@ export default () => {
           <InfoSection />
           <FeatureSection />
           <UpdateScreen />
-          <PricingSection />
+          {/* <PricingSection /> */}
           <PartnerSection />
-          <TestimonialSection />
+          {/* <TestimonialSection /> */}
           <FaqSection />
           <TrialSection />
           <Footer />

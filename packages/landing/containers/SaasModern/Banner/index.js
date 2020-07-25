@@ -43,11 +43,11 @@ const BannerSection = ({
             </DiscountWrapper>
             <Heading
               {...title}
-              content="Ultimate Platform to monitor your best workflow."
+              content="Ultimate AI Platform For Temperature Screening and Access Control."
             />
             <Text
               {...description}
-              content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!"
+              content="The VPR Verified device is a unique solution that provides Instant Temperature Readings, Face Mask Detection and Facial Recognition combined in a small package. Ideal for Health Care, Hospitals, Nursing Homes, Manufacturing, Restaurants, Hotels, Retail and other venues looking to provide a safe employee and customer environment."
             />
             <Box {...buttonWrapper}>
               <Link href="#">

@@ -27,7 +27,7 @@ const FeatureSection = ({
       <Container>
         <Box {...secTitleWrapper}>
           <Text {...secText} content="FEATURES" />
-          <Heading {...secHeading} content="Why you choose Our Plugin" />
+          <Heading {...secHeading} content="Why choose VPR Verified?" />
         </Box>
 
         <Box {...row}>

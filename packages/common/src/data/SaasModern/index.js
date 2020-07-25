@@ -356,37 +356,37 @@ export const FEATURES = [
     icon: FeatureIcon1,
     title: 'App Development',
     description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
+      'Advanced intuitive software that allows you to connect multiple devices to a central computer or use it as a stand-alone device.',
   },
   {
     icon: FeatureIcon2,
-    title: '10 Times Award',
+    title: 'Access Control',
     description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
+      'Can be connected with a wide range of access control devices such as power doors, turnstiles, 485, I/O input and output, etc..',
   },
   {
     icon: FeatureIcon3,
-    title: 'Cloud Storage',
+    title: 'Database Storage',
     description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
+      'Database of 10,000 faces, 100,000 local capture and recognition records using deep learning algorithm.',
   },
   {
     icon: FeatureIcon4,
-    title: 'Customization',
+    title: 'Easy To Use',
     description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
+      'Easy to install. Plug and play with stand alone unit or use a network of devices with our software.',
   },
   {
     icon: FeatureIcon5,
-    title: 'UX Planning',
+    title: 'Accurate Detections',
     description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
+      'Uses advanced infrared temperature and face detection technology of living people to prevent photo or video spoofing.',
   },
   {
     icon: FeatureIcon6,
     title: 'Customer Support',
     description:
-      'Get your proof tests delivered home collect a sample from the news get design.',
+      'Around the clock caring customer support and installation support.',
   },
 ];
 

@@ -51,16 +51,16 @@ const InfoSection = ({
           <Box {...col} {...textArea}>
             <Heading
               {...title}
-              content="Make your website growth with next level visitors"
+              content="Use Our Advanced Smart Pass Management Platform"
             />
             <Text
               {...description}
-              content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!."
+              content="Our Advanced Smart Pass Management Platform allows you to connect between many devices and manage them all from a central point. Don't need it? Don't worry you could keep it simple and use it as a stand-alone device with its built in software."
             />
             <Box>
               <Link href="#">
                 <a>
-                  <Button {...button} title="HOW IT WORKS" />
+                  <Button {...button} title="FREE DEMO" />
                 </a>
               </Link>
             </Box>
