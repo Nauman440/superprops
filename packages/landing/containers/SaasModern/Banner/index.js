@@ -52,7 +52,7 @@ const BannerSection = ({
             <Box {...buttonWrapper}>
               <Link href="#">
                 <a>
-                  <Button {...fillButton} title="FREE TRIAL" />
+                  <Button {...fillButton} title="FREE DEMO" />
                 </a>
               </Link>
               <Link href="#">

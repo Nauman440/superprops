@@ -28,8 +28,8 @@ export default () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>SaaS | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>VPR Verified | Automated Temperature Screening</title>
+          <meta name="Description" content="Automated Temperature Screening" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link
