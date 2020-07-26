@@ -13,6 +13,7 @@ import GlideSlide from 'common/src/components/GlideCarousel/glideSlide';
 import {
   MONTHLY_PRICING_TABLE,
   YEARLY_PRICING_TABLE,
+  With_Stand,
 } from 'common/src/data/SaasModern';
 
 import PricingTable, {
@@ -101,21 +102,21 @@ const PricingSection = ({
     <Box {...sectionWrapper} id="pricing_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="PRICING PLAN" />
+          <Text {...secText} content="PRICING" />
           <Heading
             {...secHeading}
-            content="What’s our monthly pricing subscription"
+            content="What’s our pricing"
           />
           <PricingButtonWrapper>
             <Button
-              title="Monthly Plan"
+              title="VPR Verified Device"
               className={activeStatus ? 'active-item' : ''}
               onClick={() =>
                 setState({ data: MONTHLY_PRICING_TABLE, active: true })
               }
             />
             <Button
-              title="Annual Plan"
+              title="VPR Verified Device + Stand"
               className={activeStatus === false ? 'active-item' : ''}
               onClick={() =>
                 setState({ data: YEARLY_PRICING_TABLE, active: false })

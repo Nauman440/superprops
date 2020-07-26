@@ -37,11 +37,11 @@ export const MENU_ITEMS = [
     path: '#pricing_section',
     offset: '0',
   },
-  {
-    label: 'Testimonial',
-    path: '#testimonial_section',
-    offset: '0',
-  },
+  // {
+  //   label: 'Testimonial',
+  //   path: '#testimonial_section',
+  //   offset: '0',
+  // },
   {
     label: 'FAQ',
     path: '#faq_section',
@@ -101,31 +101,6 @@ export const MONTHLY_PRICING_TABLE = [
     name: 'Business Account',
     description: 'For Mediums teams or group who need to build website ',
     price: '$9.87',
-    priceLabel: 'Per month & subscription yearly',
-    buttonLabel: 'START FREE TRIAL',
-    url: '#',
-    listItems: [
-      {
-        content: 'Drag & Drop Builder',
-      },
-      {
-        content: '1,000s of Templates Ready',
-      },
-      {
-        content: 'Blog Tools',
-      },
-      {
-        content: 'eCommerce Store ',
-      },
-      {
-        content: '30+ Webmaster Tools',
-      },
-    ],
-  },
-  {
-    name: 'Premium Account',
-    description: 'For Large teams or group who need to build website ',
-    price: '$12.98',
     priceLabel: 'Per month & subscription yearly',
     buttonLabel: 'START FREE TRIAL',
     url: '#',
@@ -228,27 +203,39 @@ export const YEARLY_PRICING_TABLE = [
   },
 ];
 
+
+
 export const FAQ_DATA = [
   {
     expend: true,
     title: 'How to contact with Customer Service?',
     description:
-      'Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. ',
+      'Our Customer Experience Team is available 5 days a week and we offer 2 ways to get in contact.Email and Phone . We try to reply quickly, so you need not to wait too long for a response!. ',
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: 'Will it still work if the person being screened is wearing a face mask?',
     description:
-      'Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . ',
+      'Yes, It will still recognize the persons face while they are wearing a face mask. The unit also has an option to allow or deny a person from access weather they have a facemask or not. ',
   },
   {
-    title: 'Website reponse taking time, how to improve?',
+    title: 'Can it also work as a face recognition device?',
     description:
-      'At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum .',
+      'Yes and it does a good job at doing so. it features both temperature screening and face recognition with dedicated cameras and sensors for each function.',
   },
   {
-    title: 'New update fixed all bug and issues?',
+    title: 'Does it need to be connected to the internet / be online to work?',
     description:
-      'We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us .',
+      'No, it is designed to work as a standalone device, it only needs to be connected to a computer if you want to use our Smart Pass Management Software to allow you to connect multiple devices to a central dashboard. As well as live monitoring.',
+  },
+  {
+    title: 'Can I connect it to my automated access door?',
+    description:
+      'Yes, the VPR Verified device features all the necessary ports to connect it to alarm systems and automated doors to control them.',
+  },
+  {
+    title: 'Can I watch the screening from my own computer?',
+    description:
+      'Yes, it can be connected using our Smart Pass Software an office network to provide a live video feed while also showing the thermal and visual comparative results.',
   },
 ];
 
