@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Head from 'next/head';
+import '../app.scss';
 import { ThemeProvider } from 'styled-components';
 import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
@@ -22,6 +23,7 @@ import FeatureSection from '../containers/SaasModern/Feature';
 import UpdateScreen from '../containers/SaasModern/UpdateScreen';
 import TestimonialSection from '../containers/SaasModern/Testimonial';
 import Footer from '../containers/SaasModern/Footer';
+
 
 export default () => {
   return (

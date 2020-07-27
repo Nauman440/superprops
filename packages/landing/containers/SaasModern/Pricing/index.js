@@ -124,18 +124,19 @@ const PricingSection = ({
             />
           </PricingButtonWrapper>
         </Box>
-        <Box {...row}>
-          <GlideCarousel
+        <Box {...row} display={"flex"} justify-content={"center"}>
+          {/* <GlideCarousel
             carouselSelector="pricing-carousel"
             options={pricingCarouselOptions}
             controls={false}
-          >
+          > */}
             <>
               {data.map((pricingTable, index) => (
-                <GlideSlide key={`pricing-table-${index}`}>
+                // <GlideSlide key={`pricing-table-${index}`}>
                   <PricingTable
                     freePlan={pricingTable.freePlan}
                     className="pricing_table"
+                    key={`pricing-table-${index}`}
                   >
                     <PricingHead>
                       <Heading content={pricingTable.name} {...nameStyle} />
@@ -181,10 +182,10 @@ const PricingSection = ({
                       ))}
                     </PricingList>
                   </PricingTable>
-                </GlideSlide>
+                // </GlideSlide>
               ))}
             </>
-          </GlideCarousel>
+          {/* </GlideCarousel> */}
         </Box>
       </Container>
     </Box>

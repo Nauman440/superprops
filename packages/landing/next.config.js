@@ -3,6 +3,12 @@ const withTM = require('next-transpile-modules')(['reusecore', 'common']);
 const withOptimizedImages = require('next-optimized-images');
 const withFonts = require('next-fonts');
 const withCSS = require('@zeit/next-css');
+
+
+const withSass = require('@zeit/next-sass')
+module.exports = withSass({
+  /* config options here */
+})
 module.exports = withPlugins(
   [
     [withTM],
@@ -20,6 +26,7 @@ module.exports = withPlugins(
     ],
     withFonts,
     withCSS,
+    withSass,
   ],
   {
     distDir: '../../dist/functions/next',
