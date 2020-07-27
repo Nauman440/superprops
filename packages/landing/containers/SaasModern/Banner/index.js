@@ -103,7 +103,7 @@ const BannerSection = ({
                               </label>
                             </p>
                             <p>
-                              <Button title="Send" />
+                            <button type="submit">Send</button>
                             </p>
                           </form>
                         </ModalContent>
