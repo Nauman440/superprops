@@ -19,7 +19,6 @@ import Thumb4 from 'common/src/assets/image/app/3.svg';
 import Thumb5 from 'common/src/assets/image/app/4.svg';
 import Thumb6 from 'common/src/assets/image/app/5.svg';
 
-// import DomainSection from '../container/Hosting/Domain';
 const images = [
   {
     original: `${Image1}`,

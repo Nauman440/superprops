@@ -24,6 +24,7 @@
   "scripts": {
     "clean": "lerna clean --yes && rimraf node_modules",
     "start": "lerna run --parallel dev",
+    "exportn": "next build && next export",
     "preweb": "cpx \"packages/common/src/assets/image/**/*.*\" \"packages/landing/static\" -C",
     "next-dev": "yarn workspace next-landing run dev",
     "next-build": "rimraf dist && yarn workspace next-landing run build",
