@@ -78,9 +78,11 @@ const BannerSection = ({
                         <ModalHeader > <h1>Please Fill Out the Information Below </h1></ModalHeader>
                         <ModalContent className="content">
                           <form
-                            name="contact"
+                            name="contact1"
                             method="POST"
+                            netlify
                             data-netlify-honeypot="bot-field"
+                            hidden
                             // onSubmit={handleSubmit}
                           >
                              <input type="hidden" name="bot-field" />
