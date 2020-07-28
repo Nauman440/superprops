@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
+import Box from 'common/src/components/Box';
 
+
+const MyCustomBox = styled(Box)`
+  justify-content:center;
+`;
 const PricingTable = styled.div`
   border: 1px solid #f2f4f7;
   border-radius: 5px;
@@ -121,6 +126,7 @@ export {
   PricingButton,
   PricingList,
   ListItem,
+  MyCustomBox,
   SwitchWrapper,
   PricingButtonWrapper,
 };

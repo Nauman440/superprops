@@ -23,6 +23,7 @@ import PricingTable, {
   PricingList,
   ListItem,
   PricingButtonWrapper,
+  MyCustomBox
 } from './pricing.style';
 
 import { checkmark } from 'react-icons-kit/icomoon/checkmark';
@@ -124,7 +125,7 @@ const PricingSection = ({
             />
           </PricingButtonWrapper>
         </Box>
-        <Box {...row} display={"flex"} justify-content={"center"}>
+        <MyCustomBox {...row} display={"flex"} justify-content={"center"}>
           {/* <GlideCarousel
             carouselSelector="pricing-carousel"
             options={pricingCarouselOptions}
@@ -186,7 +187,7 @@ const PricingSection = ({
               ))}
             </>
           {/* </GlideCarousel> */}
-        </Box>
+        </MyCustomBox>
       </Container>
     </Box>
   );
